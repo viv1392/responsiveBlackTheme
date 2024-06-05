@@ -6,8 +6,8 @@
       <class name="responsiveTest.ResponsiveTest">
         <methods>
           <include name="siteSearch"/>
+          <include name="woman"/>
           <include name="tearDown"/>
-          <include name="man"/>
         </methods>
       </class> <!-- responsiveTest.ResponsiveTest -->
     </classes>
