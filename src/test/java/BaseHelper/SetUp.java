@@ -26,7 +26,7 @@ public class SetUp {
 
 	public WebDriver setUp() throws URISyntaxException, IOException {
 		options = new UiAutomator2Options();
-		options.setChromedriverExecutable(System.getProperty("user.dir") + "\\resources\\chromedriver.exe");
+		options.setChromedriverExecutable(System.getProperty("user.dir") + "//resources//chromedriver.exe");
 		options.setDeviceName("Android Device");
 		options.setCapability("browserName", "Chrome");
 		// URL url = new URL(Utilities.localHostUrl()); // deprecated method

@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="responsiveTest.ResponsiveTest">
+      <class name="iOSBlack.BlackTheme">
         <methods>
-          <include name="siteSearch"/>
-          <include name="woman"/>
-          <include name="tearDown"/>
+          <include name="menTest"/>
         </methods>
-      </class> <!-- responsiveTest.ResponsiveTest -->
+      </class> <!-- iOSBlack.BlackTheme -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

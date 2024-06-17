@@ -40,12 +40,12 @@ public class Utilities {
 	}
     public static String screenShots(AndroidDriver driver,String testName) throws IOException {
     	File source=driver.getScreenshotAs(OutputType.FILE);
-    	String destinationFile=System.getProperty("user.dir")+"\\ScreenshotsApp\\screenshot"+testName+".png";
+    	String destinationFile=System.getProperty("user.dir")+"//ScreenshotsApp//screenshot"+testName+".png";
     	FileUtils.copyFile(source, new File(destinationFile));
     	return destinationFile;
 	}
     public static String localHostUrl() throws IOException {
-    	FileInputStream fs=new FileInputStream(System.getProperty("user.dir")+"\\Config\\Config.properties");
+    	FileInputStream fs=new FileInputStream(System.getProperty("user.dir")+"//Config//Config.properties");
     	Properties prop =new Properties();
     	prop.load(fs);
     	String url =prop.getProperty("localhost");
